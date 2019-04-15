@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04DEC23A225A56CC007A068C /* Commands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DEC239225A56CC007A068C /* Commands.swift */; };
 		04E2ED90224F4D7B00F24399 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E2ED8F224F4D7B00F24399 /* main.swift */; };
+		04E2ED972253966600F24399 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E2ED962253966600F24399 /* Car.swift */; };
+		04E2ED99225396CA00F24399 /* CarStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E2ED98225396CA00F24399 /* CarStorage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +26,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		04DEC239225A56CC007A068C /* Commands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commands.swift; sourceTree = "<group>"; };
 		04E2ED8C224F4D7B00F24399 /* AutoCataloge */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AutoCataloge; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E2ED8F224F4D7B00F24399 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		04E2ED962253966600F24399 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		04E2ED98225396CA00F24399 /* CarStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarStorage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				04E2ED8F224F4D7B00F24399 /* main.swift */,
+				04E2ED962253966600F24399 /* Car.swift */,
+				04E2ED98225396CA00F24399 /* CarStorage.swift */,
+				04DEC239225A56CC007A068C /* Commands.swift */,
 			);
 			path = AutoCataloge;
 			sourceTree = "<group>";
@@ -119,7 +128,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04E2ED972253966600F24399 /* Car.swift in Sources */,
+				04E2ED99225396CA00F24399 /* CarStorage.swift in Sources */,
 				04E2ED90224F4D7B00F24399 /* main.swift in Sources */,
+				04DEC23A225A56CC007A068C /* Commands.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
