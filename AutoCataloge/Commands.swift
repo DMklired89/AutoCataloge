@@ -44,12 +44,12 @@ class Commands {
         let cars = carStorage.getCarList()
         print("Cписок имеющихся автомобилей:")
         for car in cars {
-            var printString = "\(carNumber): \n "
+            var carDescription = "\(carNumber): \n "
             for property in Car.Property.allValues {
-                printString.append("\(property): \(car[property])\n ")
+                carDescription.append("\(property): \(car[property])\n ")
                 
             }
-            print(printString)
+            print(carDescription)
             carNumber += 1
             
         }
